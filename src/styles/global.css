@@ -1,0 +1,140 @@
+:root {
+  --color-dark-violet: #231942;
+  --color-ultra-violet: #5e548e;
+  --color-african-violet: #9f86c0;
+  --color-lilac: #be95c4;
+  --color-pink-lavender: #e0b1cb;
+}
+
+body {
+  font-family: var(--font-cardo);
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0.75rem 0;
+
+  &&& > * {
+    margin: 0;
+  }
+}
+
+hgroup:has(h1) {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+hgroup:has(h1) > h4 {
+  text-align: center;
+}
+
+section:has(a) {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: var(--font-josefin);
+  font-size: 6rem;
+  line-height: normal;
+  margin: 4rem 0;
+  letter-spacing: -0.12rem;
+}
+
+h2 {
+  font-family: var(--font-josefin);
+  font-size: 3rem;
+  margin: 0.875rem 0;
+}
+
+h3 {
+  font-family: var(--font-josefin);
+  font-size: 2rem;
+  margin: 0.75rem 0;
+}
+
+h4 {
+  font-family: var(--font-josefin);
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+h5 {
+  font-family: var(--font-josefin);
+  font-size: 1.25rem;
+  margin: 0.25rem 0;
+}
+
+h6 {
+  font-family: var(--font-josefin);
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 0 2rem;
+}
+
+ul > li {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-dark-violet);
+  color: var(--color-dark-violet);
+  box-shadow: 0 0 0.5rem 0.1rem var(--color-lilac);
+
+  &:nth-child(4n + 1) {
+    background-color: var(--color-ultra-violet);
+    color: white;
+  }
+
+  &:nth-child(4n + 2) {
+    background-color: var(--color-lilac);
+  }
+
+  &:nth-child(4n + 3) {
+    background-color: var(--color-african-violet);
+  }
+
+  &:nth-child(4n + 4) {
+    background-color: var(--color-pink-lavender);
+  }
+}
+
+ol > li:has(h5)::marker {
+  font-size: 1.25rem;
+}
+
+mark {
+  font-family: var(--font-kalam);
+  line-height: 1rem;
+  font-size: 1.125rem;
+  position: relative;
+  z-index: -1;
+}
+
+details {
+  margin: 1rem 0;
+}
+
+details > summary {
+  font-family: var(--font-josefin);
+  font-weight: 400;
+  margin: 0.25rem 0;
+  cursor: pointer;
+}

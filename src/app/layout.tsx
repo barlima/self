@@ -1,8 +1,25 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import "normalize.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "@/styles/global.css";
+
+import { Josefin_Sans, Poppins, Kalam } from "next/font/google";
+
+const josefin = Josefin_Sans({
+  weight: ["600", "500"],
+  subsets: ["latin-ext"],
+  variable: "--font-josefin",
+});
+const cardo = Poppins({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-cardo",
+});
+const kalam = Kalam({
+  weight: ["700"],
+  subsets: ["latin"],
+  variable: "--font-kalam",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${josefin.variable} ${cardo.variable} ${kalam.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
