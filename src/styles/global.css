@@ -50,6 +50,10 @@ h1 {
   line-height: normal;
   margin: 4rem 0;
   letter-spacing: -0.12rem;
+
+  @media (max-width: 620px) {
+    font-size: 14vw;
+  }
 }
 
 h2 {
