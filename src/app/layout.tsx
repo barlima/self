@@ -44,7 +44,7 @@ export default function RootLayout({
         />
         <meta
           name="keywords"
-          content="Bartłomiej Perucki, Senior Frontend Developer, React.js, TypeScript, Web Development, Portfolio"
+          content="Bartłomiej Perucki, Senior Frontend Developer, React.js, TypeScript, Next.js, Web Development, Portfolio"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.perucki.be/" />
