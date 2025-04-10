@@ -1,13 +1,15 @@
 :root {
-  --color-dark-violet: #231942;
-  --color-ultra-violet: #5e548e;
-  --color-african-violet: #9f86c0;
-  --color-lilac: #be95c4;
-  --color-pink-lavender: #e0b1cb;
+  --color-dark-violet: #4a3721;
+  --color-ultra-violet: #503a1c;
+  --color-african-violet: #775a39;
+  --color-lilac: #a17c4d;
+  --color-pink-lavender: #c0a379;
 }
 
 body {
   font-family: var(--font-cardo);
+  background-color: #dad7d3;
+  color: #292829; 
 }
 
 main {
@@ -28,7 +30,7 @@ hgroup {
 }
 
 hgroup:has(h1) {
-  margin: 4rem 0;
+  margin: 4rem 0 2rem;
   text-align: center;
 }
 
@@ -104,15 +106,17 @@ ul > li {
 
   &:nth-child(4n + 1) {
     background-color: var(--color-ultra-violet);
-    color: white;
+    color: #dad7d3;
   }
 
   &:nth-child(4n + 2) {
     background-color: var(--color-lilac);
+    color: #dad7d3;
   }
 
   &:nth-child(4n + 3) {
     background-color: var(--color-african-violet);
+    color: #dad7d3;
   }
 
   &:nth-child(4n + 4) {
@@ -141,4 +145,18 @@ details > summary {
   font-weight: 400;
   margin: 0.25rem 0;
   cursor: pointer;
+}
+
+#profile-picture {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 6px solid var(--color-african-violet);
+  overflow: hidden;
+  background-image: url("/bartek.jpeg");
+  background-color: #dad7d3;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
 }

@@ -9,6 +9,8 @@ export default function Home() {
           <h4>Senior Software Engineer & Consultant</h4>
         </hgroup>
 
+        <div id="profile-picture" />
+
         <SocialMedia />
 
         <hr />

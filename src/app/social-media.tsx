@@ -10,15 +10,15 @@ export const SocialMedia: React.FC = () => {
       <SocialIcon
         href="mailto:bartekperucki@gmail.com"
         network="email"
-        bgColor="#be95c4"
+        bgColor="var(--color-lilac)"
       />
       <SocialIcon
         url="https://www.linkedin.com/in/bart%C5%82omiej-perucki-319a0bb5/"
-        bgColor="#5e548e"
+        bgColor="var(--color-ultra-violet)"
       />
       <SocialIcon
         url="https://www.instagram.com/bartlomiejperucki/"
-        bgColor="#9f86c0"
+        bgColor="var(--color-african-violet)"
       />
     </section>
   );
