@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "normalize.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import "@/styles/global.css";
 
@@ -73,6 +74,7 @@ export default function RootLayout({
       <body
         className={`${josefin.variable} ${cardo.variable} ${kalam.variable}`}
       >
+        <Analytics />
         {children}
       </body>
     </html>
