@@ -9,7 +9,7 @@
 body {
   font-family: var(--font-cardo);
   background-color: #dad7d3;
-  color: #292829; 
+  color: #292829;
 }
 
 main {
@@ -160,3 +160,16 @@ details > summary {
   background-size: cover;
   background-position: center;
 }
+
+.will-change-transform {
+  will-change: transform;
+}
+
+/* a.social-icon {
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+a.social-icon:hover {
+  box-shadow: 0 0 0.75rem 0.001rem #292829;
+} */
