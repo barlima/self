@@ -536,6 +536,84 @@ export default function Home() {
             </ul>
           </article>
         </section>
+        <section>
+          <hgroup>
+            <h3>ESC charts</h3>
+            <p>2025</p>
+            <a href="https://esc-charts.vercel.app/" target="_blank">
+              esc-charts.vercel.app
+            </a>
+          </hgroup>
+
+          <article>
+            <p>
+              A personal project where I explored and tested various AI-powered
+              development tools and technologies while building a Eurovision
+              Song Contest data visualization platform. This project served as a
+              testing ground for modern AI coding assistants, MCP tools, and
+              cloud services.
+            </p>
+
+            <h6>Key Focus Areas:</h6>
+            <ol>
+              <li>
+                Experimented with AI coding tools including Vibe Coding, MCP
+                (Model Context Protocol), Cursor Agent, and Anthropic AI for
+                enhanced development workflow.
+              </li>
+              <li>
+                Utilized MCP tools including Supabase MCP and Perplexity MCP for
+                seamless integration with backend services and AI-powered
+                research capabilities.
+              </li>
+              <li>
+                Implemented AI task management workflows using AI task manager
+                and PRD (Product Requirements Document) generation for project
+                planning.
+              </li>
+              <li>
+                Built data visualization features to display Eurovision voting
+                patterns, country performance trends, and contest statistics.
+              </li>
+              <li>
+                Integrated Supabase for backend services, database management,
+                and real-time data handling.
+              </li>
+              <li>
+                Created interactive charts and graphs to visualize Eurovision
+                Song Contest data in an engaging and informative way.
+              </li>
+              <li>
+                Evaluated various AI-assisted development workflows and their
+                impact on productivity and code quality.
+              </li>
+            </ol>
+            <p>
+              This project allowed me to explore the intersection of AI-powered
+              development tools, MCP integrations, and data visualization while
+              working with Eurovision contest data as a compelling use case.
+            </p>
+
+            <h6>Technologies Used:</h6>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Supabase</li>
+              <li>Supabase MCP</li>
+              <li>Perplexity MCP</li>
+              <li>echarts</li>
+              <li>TailwindCSS</li>
+              <li>shadcn/ui</li>
+              <li>radix-ui</li>
+              <li>Vibe Coding</li>
+              <li>MCP</li>
+              <li>Cursor Agent</li>
+              <li>Anthropic AI</li>
+              <li>AI Task Manager</li>
+              <li>PRD Generation</li>
+            </ul>
+          </article>
+        </section>
         <br />
 
         <section>

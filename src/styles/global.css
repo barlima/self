@@ -38,12 +38,19 @@ hgroup:has(h1) > h4 {
   text-align: center;
 }
 
-section:has(a) {
+section:has(.will-change-transform) {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+hgroup:has(a) > a {
+  text-decoration: underline;
+  color: var(--color-dark-violet);
+  margin-top: 0.25rem;
+  width: fit-content;
 }
 
 h1 {
