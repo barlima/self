@@ -617,6 +617,105 @@ export default function Home() {
         <br />
 
         <section>
+          <h2>Certifications</h2>
+
+          <section>
+            <hgroup>
+              <h3>IBM Back-end JavaScript Developer</h3>
+              <p>2025, Coursera </p>
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/E7I02BABMRQX"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>NoSQL</li>
+              <li>MongoDB</li>
+              <li>Docker</li>
+            </ul>
+          </section>
+
+          <section>
+            <hgroup>
+              <h3>Advanced TypeScript Patterns</h3>
+              <p>2023, TotalTypeScript.com</p>
+              <a
+                target="_blank"
+                href="https://res.cloudinary.com/total-typescript/image/upload/v1741684228/certificate/ca47c99d-01c5-4b9e-b1d8-eac9f6c75009/advanced-typescript-patterns.png"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>TypeScript</li>
+            </ul>
+          </section>
+
+          <section>
+            <hgroup>
+              <h3>Type Transformations</h3>
+              <p>2023, TotalTypeScript.com</p>
+              <a
+                target="_blank"
+                href="https://res.cloudinary.com/total-typescript/image/upload/v1741684068/certificate/ca47c99d-01c5-4b9e-b1d8-eac9f6c75009/type-transformations.png"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>TypeScript</li>
+            </ul>
+          </section>
+
+          <section>
+            <hgroup>
+              <h3>TypeScript Generics</h3>
+              <p>2023, TotalTypeScript.com</p>
+              <a
+                target="_blank"
+                href="https://res.cloudinary.com/total-typescript/image/upload/v1741683917/certificate/ca47c99d-01c5-4b9e-b1d8-eac9f6c75009/typescript-generics.png"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>TypeScript</li>
+            </ul>
+          </section>
+
+          <section>
+            <hgroup>
+              <h3>React Web Developer Course (with Redux)</h3>
+              <p>2018, Udemy</p>
+              <a
+                target="_blank"
+                href="https://www.udemy.com/certificate/UC-4PHENPB9/"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Redux</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Jest</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
           <h2>Education</h2>
 
           <section>
