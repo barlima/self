@@ -621,6 +621,31 @@ export default function Home() {
 
           <section>
             <hgroup>
+              <h3>AWS Cloud Technical Essentials</h3>
+              <p>2025, Coursera </p>
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/verify/AV9GOCRNEJ1B?utm_product=course"
+              >
+                Certificate
+              </a>
+            </hgroup>
+
+            <ul>
+              <li>EC2</li>
+              <li>ECS</li>
+              <li>S3</li>
+              <li>RDS</li>
+              <li>DynamoDB</li>
+              <li>AWS Lambda</li>
+              <li>VPC</li>
+              <li>IAM</li>
+              <li>CloudWatch</li>
+            </ul>
+          </section>
+
+          <section>
+            <hgroup>
               <h3>IBM Back-end JavaScript Developer</h3>
               <p>2025, Coursera </p>
               <a
