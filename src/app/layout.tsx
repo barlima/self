@@ -73,7 +73,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${josefin.variable} ${cardo.variable} ${kalam.variable}`}
+        className={`${josefin.variable} ${cardo.variable} ${kalam.variable} pattern`}
       >
         <Analytics />
         <SpeedInsights />
